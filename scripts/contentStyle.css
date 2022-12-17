@@ -1,0 +1,59 @@
+#twitterNoteAction{
+    width: 90%;
+    margin-top:0.8em;
+    margin-bottom:0.8em;
+    margin-left:auto;
+    margin-right: auto;
+    padding:0.8em;
+    border-radius: 0.5em;
+    background-color: #fff;
+    color: #000;
+}
+
+#twitterNoteAction #twitterStory {
+    resize: none;
+    margin-top:0.4em;
+    width: 97%;
+    border-radius: 0.5em;
+    border: 0px;
+    padding:0.5em;
+}
+
+#twitterNoteAction .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+#twitterNoteAction .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 260px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -120px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+#twitterNoteAction .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+#twitterNoteAction .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
