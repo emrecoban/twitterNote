@@ -10,15 +10,15 @@ Twitter Note is an **open-source** MIT-licensed Chrome and Brave **browser exten
 ![enter image description here](https://github.com/emrecoban/twitterNote/blob/main/Screenshots/popup.png?raw=true)
 ## Installation
 For **Google Chrome** or **Brave**:
-1. Go to Google Chrome Web Store (**Pending Review**)
+1. Go to [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk)
 
 OR
 
 1. Download this repo as [a ZIP file from GitHub](https://github.com/emrecoban/twitterNote/archive/refs/heads/main.zip).
-2. Unzip the file and you should have a folder named twitterNote.
+2. Unzip the file and you should have a folder named twitterNote-main.
 3. In Chrome/Brave go to the extensions page (chrome://extensions or brave://extensions).
 4. Enable Developer Mode.
-5. Drag the twitterNote folder anywhere on the page to import it (do not delete the folder afterwards).
+5. Click on the load unpacked button, or drag the twitterNote-main folder anywhere on the page to import it (do not delete the folder afterwards).
 ## Contributing
 PRs are welcome!
 ## Support
