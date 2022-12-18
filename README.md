@@ -22,7 +22,11 @@ OR
 ## Contributing
 PRs are welcome!
 ## Support
-- Follow me on Twitter [@emreshepherd](https://twitter.com/emreshepherd).
+- Give a star to this repo.
+- Drop a review on [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk)
+- Follow me on Twitter [@emreshepherd](https://twitter.com/emreshepherd), or GitHub [@emrecoban](https://github.com/emrecoban).
 - Buy me a coffee, or book: https://www.buymeacoffee.com/emrecoban
+## Changelog
+- **v1.0:** The first version was born!
 ## License
 MIT License.
