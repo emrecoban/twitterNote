@@ -3,9 +3,12 @@ Twitter Note is an **open-source** MIT-licensed Chrome and Brave **browser exten
 ## The Problem
 Twitter is a very crowded platform. Sometimes I need to mute, or block someone on Twitter but most of time I forget why I muted, or blocked them. Using the other note-taking apps is troublesome. That's exactly why I developed this browser extension. It's easy, simple, and clean for everyone.
 ## Features
- - Take a note (limitless characters) about someone.
- - Delete all the notes with one click.
- - See all the notes
+ - [x] Take a note (limitless characters) about someone.
+ - [x] Delete all the notes with one click.
+ - [x] See all the notes.
+ - [ ] Reverse the notes (_the newest in the order will appear at the top of the list_).
+ - [ ] Pagination in the note list.
+ - [ ] Modern UI Design.
 ## Screenshots
 <p align="center">
 <img src="https://raw.githubusercontent.com/emrecoban/twitterNote/main/Screenshots/twitterNoteonProfile.png" width="45%"></img>
@@ -28,9 +31,13 @@ OR
 PRs are welcome!
 ## Support
 - Give a star to this repo.
-- Drop a review on [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk)
+- Drop a review on [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk).
 - Follow me on Twitter [@emreshepherd](https://twitter.com/emreshepherd), or GitHub [@emrecoban](https://github.com/emrecoban).
 - Buy me a coffee, or book: https://www.buymeacoffee.com/emrecoban
+## References
+- [Chrome Extensions Getting Started Guides](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+- [Detect DOM changes with mutation observers](https://developer.chrome.com/blog/detect-dom-changes-with-mutation-observers/)
+- [The chrome.storage API](https://developer.chrome.com/docs/extensions/reference/storage/)
 ## Changelog
 - **[v1.0](https://github.com/emrecoban/twitterNote/releases/tag/v1.0):** The first version was born!
 ## License
