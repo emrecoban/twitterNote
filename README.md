@@ -7,9 +7,12 @@ Twitter is a very crowded platform. Sometimes I need to mute, or block someone o
  - Delete all the notes with one click.
  - See all the notes
 ## Screenshots
-![enter image description here](https://raw.githubusercontent.com/emrecoban/twitterNote/main/Screenshots/twitterNoteonProfile.png)
-![enter image description here](https://github.com/emrecoban/twitterNote/blob/main/Screenshots/twitterNoteonPage2.png?raw=true)
-![enter image description here](https://github.com/emrecoban/twitterNote/blob/main/Screenshots/popup.png?raw=true)
+<p align="center">
+<img src="https://raw.githubusercontent.com/emrecoban/twitterNote/main/Screenshots/twitterNoteonProfile.png" width="45%"></img>
+<img src="https://github.com/emrecoban/twitterNote/blob/main/Screenshots/twitterNoteonPage2.png?raw=true" width="45%"></img>
+<img src="https://github.com/emrecoban/twitterNote/blob/main/Screenshots/popup.png?raw=true" width="45%"></img> 
+</p>
+
 ## Installation
 For **Google Chrome** or **Brave**:
 1. Go to [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk)
