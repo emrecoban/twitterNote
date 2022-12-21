@@ -28,7 +28,7 @@ OR
 4. Enable Developer Mode.
 5. Click on the load unpacked button, or drag the twitterNote-main folder anywhere on the page to import it (do not delete the folder afterwards).
 ## Contributing
-PRs are welcome!
+Bug reports, feature requests, and pull requests are welcome. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 ## Support
 - Give a star to this repo.
 - Drop a review on [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk).
@@ -41,4 +41,4 @@ PRs are welcome!
 ## Changelog
 - **[v1.0](https://github.com/emrecoban/twitterNote/releases/tag/v1.0):** The first version was born!
 ## License
-MIT License.
+The Twitter Note is available as open source under the terms of the [MIT License](https://github.com/emrecoban/twitterNote/blob/main/LICENSE).
