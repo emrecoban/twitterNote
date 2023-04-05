@@ -1,4 +1,13 @@
 # Twitter Note
+
+![license](https://flat.badgen.net/badge/license/MIT/blue)
+![version](https://flat.badgen.net/chrome-web-store/v/hkgdpppefidcddecmcchdkplfgjkjcdk)
+![rating](https://flat.badgen.net/chrome-web-store/rating/hkgdpppefidcddecmcchdkplfgjkjcdk)
+![users](https://flat.badgen.net/chrome-web-store/users/hkgdpppefidcddecmcchdkplfgjkjcdk)
+
+
+<a href="https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk" target="_blank"><img src="Screenshots/chrome_badge.png" align="right" /></a>
+
 Twitter Note is an **open-source** MIT-licensed Chrome and Brave **browser extension** that helps you to take notes about the people who you blocked, or muted.
 ## The Problem
 Twitter is a very crowded platform. Sometimes I need to mute, or block someone on Twitter but most of time I forget why I muted, or blocked them. Using the other note-taking apps is troublesome. That's exactly why I developed this browser extension. It's easy, simple, and clean for everyone.
