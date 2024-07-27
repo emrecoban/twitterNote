@@ -1,25 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "Twitter Note",
-    "description": "Take notes about them.",
-    "version": "1.0",
-    "action": {
-      "default_popup": "./popup/popup.html",
-      "default_icon": "./images/twitterNote.png"
-    },
-    "content_scripts":[{
-        "css": ["./scripts/contentStyle.css"],
-        "js":["./scripts/content.js"],
-        "matches":["https://*.twitter.com/*"],
-        "run_at": "document_start"
-    }],
-    "permissions": [
-      "storage"
-    ],
-    "icons":{
-        "16" : "./images/twitterNote.png",
-        "32" : "./images/twitterNote.png",
-        "48" : "./images/twitterNote.png",
-        "128" : "./images/twitterNote.png"
+  "manifest_version": 3,
+  "name": "Twitter Note",
+  "description": "Take notes about them.",
+  "version": "1.1",
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_icon": "./images/twitterNote.png"
+  },
+  "content_scripts": [
+    {
+      "css": ["./scripts/contentStyle.css"],
+      "js": ["./scripts/content.js"],
+      "matches": ["https://*.x.com/*"],
+      "run_at": "document_start"
     }
+  ],
+  "permissions": ["storage"],
+  "icons": {
+    "16": "./images/twitterNote.png",
+    "32": "./images/twitterNote.png",
+    "48": "./images/twitterNote.png",
+    "128": "./images/twitterNote.png"
   }
+}
