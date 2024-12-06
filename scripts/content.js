@@ -55,19 +55,28 @@ const injectDOM = (userName) => {
   });
 };
 
-document.addEventListener(
-  "DOMNodeInserted",
-  function (e) {
-    e.target.content &&
-      e.target.content.includes("(@") &&
-      document.querySelector('[data-testid="UserName"]') &&
-      injectDOM(
-        Array.from(
-          document
-            .querySelector('[data-testid="UserName"]')
-            .querySelectorAll("span")
-        ).find((span) => span.textContent.startsWith("@")).textContent
-      );
-  },
-  false
-);
+const observer = new MutationObserver((mutationsList) => {
+  for (let mutation of mutationsList) {
+    if (mutation.type === 'childList') {
+      mutation.addedNodes.forEach((node) => {
+        if (
+          node.nodeType === Node.ELEMENT_NODE &&
+          node.textContent.includes("(@") &&
+          document.querySelector('[data-testid="UserName"]')
+        ) {
+          const userName = Array.from(
+            document
+              .querySelector('[data-testid="UserName"]')
+              .querySelectorAll("span")
+          ).find((span) => span.textContent.startsWith("@")).textContent;
+          injectDOM(userName);
+        }
+      });
+    }
+  }
+});
+
+observer.observe(document, {
+  childList: true,
+  subtree: true,
+});
