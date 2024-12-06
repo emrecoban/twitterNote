@@ -61,6 +61,7 @@ Bug reports, feature requests, and pull requests are welcome. This project is in
 - [Chrome Extensions Getting Started Guides](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
 - [Detect DOM changes with mutation observers](https://developer.chrome.com/blog/detect-dom-changes-with-mutation-observers/)
 - [The chrome.storage API](https://developer.chrome.com/docs/extensions/reference/storage/)
+- [Deprecate Mutation Events (Deprecated)](https://chromestatus.com/feature/5083947249172480)
 
 ## Changelog
 
