@@ -64,6 +64,7 @@ Bug reports, feature requests, and pull requests are welcome. This project is in
 
 ## Changelog
 
+- **[v1.2](https://github.com/emrecoban/twitterNote/releases/tag/v1.1):** Replaced the deprecated DOMNodeInserted event with MutationObserver for improved performance and compatibility by [Chip Thien](https://github.com/MacroChip).
 - **[v1.1](https://github.com/emrecoban/twitterNote/releases/tag/v1.1):** Compatible with X.
 - **[v1.0](https://github.com/emrecoban/twitterNote/releases/tag/v1.0):** The first version was born!
 
